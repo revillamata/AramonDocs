@@ -1,0 +1,22 @@
+site_name: Documentación IoT Aramon
+site_author: Eduardo Revilla
+
+site_url: https://aaaaa.com/
+repo_url: https://github.com/revillamata/docsTemplate.git
+
+copyright: Copyright &copy; 2023 - <a href="https://www.integratecnologia.es/consultoria/iot-data-ai/">Integra IoT</
+theme: readthedocs
+language: es
+
+nav:
+- Home: index.md
+- 'Primeros pasos':
+  - Introducción: intro.md
+  - Arquitectura de la solución: arqsol.md
+- 'Recursos disponibles': 
+  - Instalación del entorno local para desarrollo: instlocaldesarrollo.md
+  - Despliegue de la aplicación web: desplegweb.md
+  - Configuraciones necesarias para realizar los tests unitarios: confnesesunit.md
+  - Tests Unitarios: testuni.md
+  - Prueba de integración con Travis CI: prtestinttravisci.md
+  - Conclusiones: conc.md
